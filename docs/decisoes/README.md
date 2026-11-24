@@ -56,11 +56,18 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 |---|---|---|
 | [0001](0001-servicos-juntos-plataforma-separada.md) | O estado desejado do cluster tem repositório próprio, e o CD escreve nele | aceita |
 
+### Continuidade
+
+| # | Decisão | Status |
+|---|---|---|
+| [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | Warm standby em outra região, e o dado das doações replicado fora do cluster | aceita |
+
 ### IaC
 
 | # | Decisão | Status |
 |---|---|---|
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Os módulos do ToggleMaster são copiados para a org, consumidos sempre por tag | aceita |
+| [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | A região é parâmetro desde o primeiro módulo; estado da região secundária independente | aceita |
 
 ---
 
@@ -72,6 +79,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 |---|---|---|
 | [0001](0001-servicos-juntos-plataforma-separada.md) | Os três serviços num repositório; plataforma em repositórios próprios | 24/11 |
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Módulos e workflows do ToggleMaster copiados para a org | 24/11 |
+| [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | Disaster Recovery por warm standby em outra região | 24/11 |
 
 ---
 
