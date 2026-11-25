@@ -91,7 +91,7 @@ O código de partida é o fornecido pelo curso em [`dougls/hackathon-DCLT`](http
 
 | Repositório | Papel |
 |---|---|
-| [`.github`](https://github.com/fiap-hackathon-dclt/.github) | Este perfil, o registro de decisões e os documentos transversais: SRE, FinOps, PCN e ITSM |
+| [`.github`](https://github.com/fiap-hackathon-dclt/.github) | Este perfil e o registro de decisões |
 
 ---
 

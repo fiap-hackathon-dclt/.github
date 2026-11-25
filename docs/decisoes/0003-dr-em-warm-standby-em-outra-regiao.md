@@ -1,6 +1,6 @@
 # 0003 — Disaster Recovery por warm standby em outra região, não por Velero
 
-**Status:** aceita · **Domínio:** Continuidade · IaC · **Validação:** não validada · **Data:** 24/11/2026 · **Fase:** 5
+**Status:** aceita · **Domínio:** Disaster Recovery · IaC · **Validação:** não validada · **Data:** 24/11/2026 · **Fase:** 5
 
 ## Contexto
 
@@ -40,4 +40,4 @@ A implementação fica para depois da fundação. O que vale desde já é a rest
 
 ## Onde aprofundar
 
-O Plano de Continuidade de Negócios, quando for escrito em `docs/continuidade/`.
+O Plano de Continuidade de Negócios, na seção de Segurança e DR do relatório de entrega.

@@ -56,7 +56,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 |---|---|---|
 | [0001](0001-servicos-juntos-plataforma-separada.md) | O estado desejado do cluster tem repositório próprio, e o CD escreve nele | aceita |
 
-### Continuidade
+### Disaster Recovery
 
 | # | Decisão | Status |
 |---|---|---|
