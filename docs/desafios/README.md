@@ -17,3 +17,4 @@ Seções: **Sintoma · Investigação · Causa · Solução · Como verificar.**
 | [0001](0001-donation-service-nao-compila.md) | O `donation-service` entregue pelo curso não compila | `donation-service` |
 | [0002](0002-psycopg2-sem-wheel-no-alpine.md) | O `psycopg2-binary` 2.9.5 não tem wheel para Python 3.13 no Alpine | `ngo-service` |
 | [0003](0003-gunicorn-27-control-socket.md) | O gunicorn 27 tenta criar um socket de controle no home do usuário | `ngo-service`, `volunteer-service` |
+| [0004](0004-erro-do-banco-some-do-log.md) | O erro de conexão com o banco some do log | `donation-service` |
