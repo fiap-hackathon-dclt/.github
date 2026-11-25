@@ -49,6 +49,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 |---|---|---|
 | [0001](0001-servicos-juntos-plataforma-separada.md) | Serviços juntos exigem CI por subdiretório e filtro de caminho por serviço | aceita, exceto no `.github` |
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Os workflows do ToggleMaster são copiados e adaptados aqui, por tag nova | aceita |
+| [0005](0005-imagens-minimas-com-cache.md) | O build da imagem no CI ganha cache de camadas por serviço | aceita |
 
 ### GitOps
 
@@ -75,6 +76,19 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Os módulos do ToggleMaster são copiados para a org, consumidos sempre por tag | aceita |
 | [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | A região é parâmetro desde o primeiro módulo; estado da região secundária independente | aceita |
 
+### Observabilidade
+
+| # | Decisão | Status |
+|---|---|---|
+| [0006](0006-go-1-27-python-3-13.md) | A linha atual do OTel, sem a trava de versão do ToggleMaster | aceita |
+
+### Serviços
+
+| # | Decisão | Status |
+|---|---|---|
+| [0005](0005-imagens-minimas-com-cache.md) | Go em distroless `static`, Python em Alpine, multi-stage e sem root | aceita |
+| [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, com as dependências atualizadas junto | aceita |
+
 ---
 
 ## Por fase
@@ -87,6 +101,8 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Módulos e workflows do ToggleMaster copiados para a org | 24/11 |
 | [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | Disaster Recovery por warm standby em outra região | 24/11 |
 | [0004](0004-documentos-de-entrega-no-relatorio.md) | Documentos de entrega no relatório da fase, não no Git | 25/11 |
+| [0005](0005-imagens-minimas-com-cache.md) | Imagens multi-stage mínimas, sem root, com cache | 25/11 |
+| [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, dependências atualizadas junto | 25/11 |
 
 ---
 
