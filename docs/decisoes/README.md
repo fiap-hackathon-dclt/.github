@@ -82,12 +82,19 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 |---|---|---|
 | [0006](0006-go-1-27-python-3-13.md) | A linha atual do OTel, sem a trava de versão do ToggleMaster | aceita |
 
+### Segurança
+
+| # | Decisão | Status |
+|---|---|---|
+| [0007](0007-imagem-base-por-tag-e-digest.md) | O digest torna a base imutável: tag reapontada na origem não chega ao build | aceita |
+
 ### Serviços
 
 | # | Decisão | Status |
 |---|---|---|
 | [0005](0005-imagens-minimas-com-cache.md) | Go em distroless `static`, Python em Alpine, multi-stage e sem root | aceita |
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, com as dependências atualizadas junto | aceita |
+| [0007](0007-imagem-base-por-tag-e-digest.md) | Toda imagem base no Dockerfile como `imagem:tag@sha256:…` | aceita |
 
 ---
 
@@ -103,6 +110,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0004](0004-documentos-de-entrega-no-relatorio.md) | Documentos de entrega no relatório da fase, não no Git | 25/11 |
 | [0005](0005-imagens-minimas-com-cache.md) | Imagens multi-stage mínimas, sem root, com cache | 25/11 |
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, dependências atualizadas junto | 25/11 |
+| [0007](0007-imagem-base-por-tag-e-digest.md) | Imagens base fixadas por tag e digest | 25/11 |
 
 ---
 
