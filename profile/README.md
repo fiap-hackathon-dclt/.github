@@ -91,7 +91,7 @@ O código de partida é o fornecido pelo curso em [`dougls/hackathon-DCLT`](http
 
 | Repositório | Papel |
 |---|---|
-| [`.github`](https://github.com/fiap-hackathon-dclt/.github) | Este perfil e o registro de decisões |
+| [`.github`](https://github.com/fiap-hackathon-dclt/.github) | Este perfil, o registro de decisões e os desafios enfrentados |
 
 ---
 
@@ -112,3 +112,5 @@ O enunciado organiza a avaliação em cinco frentes. A tabela é atualizada conf
 ## Documentação
 
 O [registro de decisões](https://github.com/fiap-hackathon-dclt/.github/tree/main/docs/decisoes) guarda, desde a primeira linha de código, o que foi escolhido, o que foi descartado e por quê, incluindo as decisões de **não** fazer e as previsões que a execução desmentiu.
+
+Os [desafios](https://github.com/fiap-hackathon-dclt/.github/tree/main/docs/desafios) guardam o outro lado: os problemas reais que apareceram no caminho, com a evidência, a causa e como foram resolvidos.

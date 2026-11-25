@@ -33,6 +33,8 @@ No Git ficam o código, os READMEs e as ADRs. A ADR registra a decisão por trá
 - Como garantir, na hora de fechar o relatório, que cada valor nele bate com o que está implementado
 - Se cada repositório terá narrativas dos problemas enfrentados, como o `docs/desafios/` do ToggleMaster
 
+  > **25/11/2026:** terá, mas centralizado num lugar só para o projeto inteiro, em [`.github/docs/desafios/`](../desafios/), em vez de um `docs/desafios/` por repositório.
+
 ## Onde aprofundar
 
 [`.github/README.md`](../../README.md), seção *O que não mora aqui*.

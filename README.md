@@ -2,10 +2,11 @@
 
 Repositório central da **SolidaryTech**, o Hackathon da Fase 5 da POSTECH FIAP (DevOps/SRE).
 
-Ele tem dois papéis:
+Ele tem três papéis:
 
 - **Perfil da organização.** O [`profile/README.md`](profile/README.md) é a página de entrada da org no GitHub, com a equipe, a aplicação e o mapa dos repositórios.
 - **Registro de decisões.** As decisões de arquitetura que atravessam mais de um repositório, em [`docs/decisoes/`](docs/decisoes/).
+- **Desafios.** Os problemas reais encontrados no projeto inteiro e como foram resolvidos, em [`docs/desafios/`](docs/desafios/).
 
 ## Registro de decisões
 

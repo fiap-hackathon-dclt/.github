@@ -32,6 +32,10 @@ A antiga é marcada e ganha, no topo, uma nota datada dizendo **o que caiu e o q
 
 Número errado, citação torta, nome de recurso que nunca existiu: corrige-se no lugar, sem nota. O teste: se a frase corrigida muda **o que foi decidido ou por quê**, é superação; se muda só o que é verdade sobre o mundo, é correção.
 
+### Item em aberto que foi respondido
+
+Quando uma pergunta de *O que esta decisão não resolve* é respondida, o texto original fica, porque era verdadeiro quando foi escrito, e a resposta entra **logo abaixo, em citação e com data**. Não é correção nem superação: a decisão continua intacta, só o mundo mudou de estado. A data importa porque o valor do registro é saber quando se passou a saber.
+
 ### O que também se registra
 
 - **A decisão de não fazer.** É o registro que mais se perde e o que mais evita retrabalho
@@ -95,6 +99,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0005](0005-imagens-minimas-com-cache.md) | Go em distroless `static`, Python em Alpine, multi-stage e sem root | aceita |
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, com as dependências atualizadas junto | aceita |
 | [0007](0007-imagem-base-por-tag-e-digest.md) | Toda imagem base no Dockerfile como `imagem:tag@sha256:…` | aceita |
+| [0008](0008-ambiente-local-com-emuladores.md) | O sistema roda local em docker-compose, com DynamoDB Local e ElasticMQ, sem conta na AWS | aceita |
 
 ---
 
@@ -111,6 +116,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0005](0005-imagens-minimas-com-cache.md) | Imagens multi-stage mínimas, sem root, com cache | 25/11 |
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, dependências atualizadas junto | 25/11 |
 | [0007](0007-imagem-base-por-tag-e-digest.md) | Imagens base fixadas por tag e digest | 25/11 |
+| [0008](0008-ambiente-local-com-emuladores.md) | Ambiente local em docker-compose, com emuladores da AWS | 25/11 |
 
 ---
 
