@@ -47,14 +47,20 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 
 | # | Decisão | Status |
 |---|---|---|
-| [0001](0001-servicos-juntos-plataforma-separada.md) | Serviços juntos exigem CI por subdiretório e filtro de caminho por serviço | aceita |
+| [0001](0001-servicos-juntos-plataforma-separada.md) | Serviços juntos exigem CI por subdiretório e filtro de caminho por serviço | aceita, exceto no `.github` |
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Os workflows do ToggleMaster são copiados e adaptados aqui, por tag nova | aceita |
 
 ### GitOps
 
 | # | Decisão | Status |
 |---|---|---|
-| [0001](0001-servicos-juntos-plataforma-separada.md) | O estado desejado do cluster tem repositório próprio, e o CD escreve nele | aceita |
+| [0001](0001-servicos-juntos-plataforma-separada.md) | O estado desejado do cluster tem repositório próprio, e o CD escreve nele | aceita, exceto no `.github` |
+
+### Documentação
+
+| # | Decisão | Status |
+|---|---|---|
+| [0004](0004-documentos-de-entrega-no-relatorio.md) | SLI/SLO/SLA, forecast, PCN e ciclo de incidentes vivem no relatório; no Git, só código, READMEs e ADRs | aceita |
 
 ### Disaster Recovery
 
@@ -80,6 +86,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0001](0001-servicos-juntos-plataforma-separada.md) | Os três serviços num repositório; plataforma em repositórios próprios | 24/11 |
 | [0002](0002-base-do-togglemaster-copiada-para-a-org.md) | Módulos e workflows do ToggleMaster copiados para a org | 24/11 |
 | [0003](0003-dr-em-warm-standby-em-outra-regiao.md) | Disaster Recovery por warm standby em outra região | 24/11 |
+| [0004](0004-documentos-de-entrega-no-relatorio.md) | Documentos de entrega no relatório da fase, não no Git | 25/11 |
 
 ---
 

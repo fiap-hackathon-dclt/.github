@@ -1,6 +1,8 @@
 # 0001 — Os três serviços num repositório; infraestrutura, GitOps e documentação em repositórios próprios
 
-**Status:** aceita · **Domínio:** CI/CD · GitOps · **Data:** 24/11/2026 · **Fase:** 5
+**Status:** aceita, exceto no conteúdo do `.github`, superado pela 0004 · **Domínio:** CI/CD · GitOps · **Data:** 24/11/2026 · **Fase:** 5
+
+> **25/11/2026 — superada em parte pela [0004](0004-documentos-de-entrega-no-relatorio.md).** Caiu: o `.github` guardar documentos transversais; os documentos de entrega vão no relatório da fase, fora do Git. Continua valendo: toda a organização dos repositórios, e o `.github` como perfil da organização e registro de decisões.
 
 ## Contexto
 
