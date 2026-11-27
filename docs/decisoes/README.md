@@ -85,6 +85,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | # | Decisão | Status |
 |---|---|---|
 | [0006](0006-go-1-27-python-3-13.md) | A linha atual do OTel, sem a trava de versão do ToggleMaster | aceita |
+| [0009](0009-consumidor-da-fila-de-doacoes.md) | O trace atravessa a fila: donation-service, consumidor e ngo-service num trace só | aceita |
 
 ### Segurança
 
@@ -100,6 +101,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, com as dependências atualizadas junto | aceita |
 | [0007](0007-imagem-base-por-tag-e-digest.md) | Toda imagem base no Dockerfile como `imagem:tag@sha256:…` | aceita |
 | [0008](0008-ambiente-local-com-emuladores.md) | O sistema roda local em docker-compose, com DynamoDB Local e ElasticMQ, sem conta na AWS | aceita |
+| [0009](0009-consumidor-da-fila-de-doacoes.md) | Um consumidor da fila confere a ONG e notifica, sem tocar o caminho crítico | aceita |
 
 ---
 
@@ -117,6 +119,7 @@ As tabelas são escritas à mão: a descrição de cada linha diz por que aquela
 | [0006](0006-go-1-27-python-3-13.md) | Go 1.27 e Python 3.13, dependências atualizadas junto | 25/11 |
 | [0007](0007-imagem-base-por-tag-e-digest.md) | Imagens base fixadas por tag e digest | 25/11 |
 | [0008](0008-ambiente-local-com-emuladores.md) | Ambiente local em docker-compose, com emuladores da AWS | 25/11 |
+| [0009](0009-consumidor-da-fila-de-doacoes.md) | Um consumidor da fila de doações, para o tracing atravessar microsserviços | 27/11 |
 
 ---
 
